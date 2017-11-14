@@ -1,0 +1,24 @@
+package com.fju.mid;
+
+import java.util.Random;
+
+public class Lucky {
+
+	public static void main(String[] args) {
+		Random r = new Random();
+		int n1 = r.nextInt(9)+1;
+		int n2 = r.nextInt(9)+1;
+		int n3 = r.nextInt(9)+1;
+		int n4 = r.nextInt(9)+1;
+		int n5 = r.nextInt(9)+1;
+		int n6 = r.nextInt(9)+1;
+		System.out.print(n1+" ");
+		System.out.print(n2+" ");
+		System.out.print(n3+" ");
+		System.out.print(n4+" ");
+		System.out.print(n5+" ");
+		System.out.print(n6+" ");
+		
+	}
+
+}
